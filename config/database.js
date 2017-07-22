@@ -1,6 +1,5 @@
 // Asynchronous
-const crypto = require('crypto');
-crypto.randomBytes(256).toString('hex');
+const crypto = require('crypto').randomBytes(256).toString('hex');
 
 
 module.exports = {
